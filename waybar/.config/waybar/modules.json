@@ -19,6 +19,12 @@
     "spacing": 5
   },
 
+  "hyprland/language": {
+    "format": "{} ",
+    "format-pt": "PT",
+    "format-en": "EN"
+  },  
+
   "clock": {
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {

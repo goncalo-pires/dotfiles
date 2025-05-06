@@ -5,7 +5,7 @@
     min-height: 0;
     border: 0;
     padding: 0 0;
-    font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "DejaVu Sans Mono", "Hack Nerd Font", "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 10px;
     transition: all 0.5s ease;
 }
@@ -66,6 +66,7 @@ window#waybar {
     color: #ebcb8b;
 }
 
+#language,
 #clock,
 #custom-swap,
 #custom-background,
@@ -170,6 +171,13 @@ window#waybar.empty #window {
 #clock {
     /* background-color:#a3be8c; */
     color: @sky;
+    border-radius: 10px;
+    margin: 8px 10px;
+}
+
+#language {
+    /* background-color:#a3be8c; */
+    color: @yellow;
     border-radius: 10px;
     margin: 8px 10px;
 }
